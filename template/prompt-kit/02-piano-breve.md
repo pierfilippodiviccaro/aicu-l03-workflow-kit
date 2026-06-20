@@ -1,18 +1,18 @@
-# Piano Breve
-
 Task:
-[incolla qui il task]
+Quando l'API restituisce una lista vuota, mostrare un messaggio chiaro e sobrio al posto dello spazio vuoto.
 
 Contesto:
-[scrivi 1-2 righe sul progetto o sulla pagina]
+App ticketing minimale — API Express + UI React/Vite. Niente TypeScript.
+File principale probabile: `src/components/TicketList.jsx`.
+Verifica sempre con `?empty=true` e senza parametro.
 
 Prima di modificare file, restituisci una bozza di piano in massimo 5 punti operativi.
 
-Il limite riguarda la bozza visibile, non il numero di round: possiamo rivederla con l'agente finche' e' approvabile.
+Il limite riguarda la bozza visibile, non il numero di round: possiamo rivederla finché è approvabile.
 
-I 5 punti non sono 5 comandi ne' 5 requisiti separati: sono massimo 5 decisioni/azioni verificabili.
+I 5 punti non sono 5 comandi né 5 requisiti separati: sono massimo 5 decisioni/azioni verificabili.
 
-Fuori scope, verifica, rischio e permesso massimo devono restare brevi e possono stare fuori dal conteggio dei 5 punti.
+Fuori scope, verifica, rischio e permesso massimo restano brevi e possono stare fuori dal conteggio.
 
 Indica:
 
@@ -23,13 +23,13 @@ Indica:
 - prova di controllo;
 - permesso massimo da concedere;
 - strategia prompt: zero-shot o few-shot;
-- evidenze sintetiche da controllare prima della patch: assunzioni principali, criterio usato, verifica proposta.
+- evidenze sintetiche prima della patch: assunzioni principali, criterio usato, verifica proposta.
 
 Valuta rischio e autonomia con questi criteri:
 
 - chiarezza del task;
 - blast radius;
-- reversibilita' del diff;
+- reversibilità del diff;
 - costo della verifica;
 - permesso massimo da concedere.
 
@@ -37,4 +37,4 @@ Non modificare file in questa risposta.
 
 Se il task richiede redesign, routing, nuove feature o refactor, fermati e segnalalo.
 
-Non mostrare chain-of-thought estesa. Se proponi esempi few-shot, usa al massimo 1-2 esempi brevi per chiarire formato o criterio, senza anticipare la soluzione.
+Non mostrare chain-of-thought estesa. Se
